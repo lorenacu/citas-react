@@ -5,15 +5,12 @@ function App() {
  
   return (
    
-      <>
+      <div className = "container mx-auto mt-40"> 
       <Header/>
       <Formulario/>
       <ListadoPaciente/>
-      </>
-
-    
+      </div>
   )
 }
-
 export default App
  
